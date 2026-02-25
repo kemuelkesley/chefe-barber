@@ -128,7 +128,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/10 text-center text-neutral-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4">
-        <span>&copy; {new Date().getFullYear()} ChefeBarber. Todos os direitos reservados.</span>
+        <span>&copy; {new Date().getFullYear()} kemSoftware. Todos os direitos reservados.</span>
         <span className="opacity-70 hover:opacity-100 transition-opacity cursor-pointer text-neutral-300">Política de Privacidade</span>
       </div>
     </footer>
