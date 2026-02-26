@@ -3,6 +3,7 @@ export interface ServiceItem {
   title: string;
   description: string;
   price: string;
+  image?: string;
 }
 
 export interface NavLink {

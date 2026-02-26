@@ -6,10 +6,16 @@ import { Services } from './components/Services';
 import { Gallery } from './components/Gallery';
 import { Booking } from './components/Booking';
 import { Footer } from './components/Footer';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden selection:bg-blood-900 selection:text-white">
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="min-h-screen bg-black text-white overflow-x-hidden selection:bg-blood-900 selection:text-white"
+    >
       <Navbar />
       <main>
         <Hero />
@@ -19,7 +25,7 @@ function App() {
         <Booking />
       </main>
       <Footer />
-    </div>
+    </motion.div>
   );
 }
 

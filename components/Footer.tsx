@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
       
       marker.bindPopup(`
         <div class="text-center">
-          <strong class="text-blood-600 font-serif uppercase tracking-widest">ChefeBarber</strong><br/>
+          <strong class="text-blood-600 font-serif uppercase tracking-widest">KemSoftware</strong><br/>
           Rua Arapiraca<br/>
           Cruz das Almas, Maceió
         </div>
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
           {/* Brand & Info Column */}
           <div className="lg:w-1/3 flex flex-col justify-between">
             <div>
-              <h3 className="font-serif text-3xl text-white mb-6">CHEFE<span className="text-blood-600">BARBER</span></h3>
+              <h3 className="font-serif text-3xl text-white mb-6">KEM<span className="text-blood-600">SOFTWARE</span></h3>
               <p className="text-neutral-300 text-sm leading-relaxed mb-8">
                 Elevando o padrão de barbearia. Estilo, tradição e exclusividade em cada detalhe. 
                 Um ambiente forjado para quem exige o melhor.
@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
                   <div className="p-2 bg-white/5 rounded-full group-hover:bg-blood-900 transition-colors">
                     <Mail className="w-4 h-4 text-blood-600 group-hover:text-white" />
                   </div>
-                  <span>contato@chefebarber.com.br</span>
+                  <span>contato@kemsoftware.com.br</span>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/10 text-center text-neutral-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4">
-        <span>&copy; {new Date().getFullYear()} kemSoftware. Todos os direitos reservados.</span>
+        <span>&copy; {new Date().getFullYear()} KemSoftware. Todos os direitos reservados.</span>
         <span className="opacity-70 hover:opacity-100 transition-opacity cursor-pointer text-neutral-300">Política de Privacidade</span>
       </div>
     </footer>
